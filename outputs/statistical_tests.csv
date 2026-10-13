@@ -1,0 +1,13 @@
+test,variable,statistic,p_value,effect_size,effect_metric,p_bonferroni,significant_at_5pct
+chi-square,any_prior_accept,296.3538,0.0,0.3679,Cramer's V,0.0,True
+chi-square,education,22.7727,0.0001,0.1016,Cramer's V,0.0017,True
+chi-square,marital_status,49.6992,0.0,0.15,Cramer's V,0.0,True
+chi-square,has_children,90.4921,0.0,0.2038,Cramer's V,0.0,True
+chi-square,complain,0.0,1.0,0.0,Cramer's V,1.0,False
+mann-whitney,income,391623.5,0.0,0.6303,P(responder > non-responder),0.0,True
+mann-whitney,total_spend,430020.0,0.0,0.6921,P(responder > non-responder),0.0,True
+mann-whitney,recency_days,210384.5,0.0,0.3386,P(responder > non-responder),0.0,True
+mann-whitney,age,300858.0,0.36,0.4842,P(responder > non-responder),1.0,False
+mann-whitney,tenure_days,408533.0,0.0,0.6576,P(responder > non-responder),0.0,True
+mann-whitney,NumWebVisitsMonth,316830.0,0.5596,0.51,P(responder > non-responder),1.0,False
+mann-whitney,deal_share,253068.0,0.0,0.4073,P(responder > non-responder),0.0,True
